@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.information input {
+  width: 30%;
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.information button {
+  width: 31%;
+  height: 50px;
+  margin: none;
+  margin-top: 20px;
+}
+
+.information button:hover {
+  cursor: pointer;
+}
